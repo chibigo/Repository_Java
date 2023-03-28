@@ -9,7 +9,7 @@ public class QuanLyDanSoController {
         NhanKhau nhanKhau = new NhanKhau();
         nhanKhau.nhapThongTin();
         nhanKhau.inThongTin();
-        
+
         System.out.println("---------- =Ho Khau= ----------");
         HoKhau hoKhau = new HoKhau();
         hoKhau.nhapThongTin();
