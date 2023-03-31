@@ -6,11 +6,6 @@ public class Tamgiac_BT1 {
         int numberHeight, numberColumn;
         System.out.print("Nhập chiều cao: ");
          numberHeight = scanner.nextInt();
-        if (numberHeight % 2 == 0){
-            numberColumn = (numberHeight /2) + 1;
-        }else{
-            numberColumn = numberHeight + 1;
-        }
         for (int i = 1; i <= numberHeight; i++) {
             if (numberHeight % 2 != 0){
                 numberColumn = (numberHeight /2) + 1;
