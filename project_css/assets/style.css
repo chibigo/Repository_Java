@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+/* BT_1 */
+.btap_1{
+    max-width: 200px;
+    background: #833b74;
+}
+.btap_1 h2{
+    text-align: center;
+}
+.btap_1 .btap_1-image{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.btap_1 .btap_1-image .image-item{
+    display: flex;
+    flex-direction: column;
+}
+.btap_1 .btap_1-image .image-item p {
+    margin: 6px 0 12px;
+    color: white;
+    font-weight: 500;
+}
+/* BT_2 */
+
+.btap_2{
+    margin-top: 32px;
+    max-width: 320px;
+    border: 1px solid #dfdfdf;
+    border-bottom-right-radius: 8px;
+}
+.btap_2 h2{
+ text-align: center;
+}
+.btap_2 .btap_2-image{
+    background: #f8f1f7;
+    padding: 12px 8px;
+}
+.btap_2 .btap_2-image .image-item{
+    display: flex;
+    flex-direction: column;
+}
+.btap_2 .btap_2-image .image-item a {
+    margin: 0;
+    padding: 10px  10px 16px;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.btap_2 .btap_2-content ul{
+    list-style: none;
+}
+.btap_2 .btap_2-content ul .content-item{
+    margin-bottom: 16px;
+}
+.btap_2 .btap_2-content ul .content-item::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 6px;
+    margin-left: -2em;
+  }
+.btap_2 .btap_2-content .content-item a{
+    text-decoration: none;
+    color: #833b74;
+}
+
+/* BT_3 */
+.btap_3{
+    max-width: 600px;
+}
+.btap_3 .btap_3-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: 100%;
+    padding: 8px;
+
+}
+.btap_3 .btap_3-image .image-item{
+    display: flex;
+    flex-direction: column;
+}
+.btap_3 .btap_3-image .image-item {
+    position: relative;
+}
+.btap_3 .btap_3-image .image-item .item-time{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: #3b3b3b;
+    padding: 4px 8px;
+    color: #fff;
+    opacity: 0.9;
+
+}
+.btap_3 .btap_3-image .image-item .icon{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+
+}
+.btap_3 .btap_3-image .image-item a{
+    text-decoration: none;
+    color: #515151;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 0 12px;
+}
