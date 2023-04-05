@@ -1,0 +1,115 @@
+.btap1,.btap2{
+    width: 50vw;
+}
+.btap1 .btap1_header{
+    display: flex;
+}
+.btap1 .btap1_header img{
+    width: 30px;
+    height: 30px;
+}
+.btap1 .btap1_header h3{
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    color: #b69b96;
+}
+.btap1_list .list_flower{
+    padding-left: 0;
+    list-style: none;
+}
+.btap1_list .list_flower .flower_item{
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #999;
+}
+.btap1_list .list_flower .flower_item h4{
+    margin: 0 0 12px 0;
+    color: #da1422;
+}
+.btap1_list .list_flower .flower_item .flower_item_content{
+    height: auto;
+    display: flex;
+}
+.flower_item_content .flower_item_image {
+    width: 300px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 2px;
+}
+.flower_item_content .flower_item_image img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+.flower_item_content .flower_item_context{
+    margin-left: 24px;
+    border: 1px solid #e5e5e5;
+    padding: 4px 12px;
+    border-radius: 4px;
+    position: relative;
+}
+.flower_item_content .flower_item_context .flower_item_button{
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    background: #961b1e;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.flower_item_content .flower_item_context .flower_item_price{
+    color: #ce3234;
+}
+.flower_item_content .flower_item_context .flower_item_price span{
+    font-weight: 600;
+}
+
+/* Btap2 */
+.btap2 .list_post{
+    padding: 0;
+}
+.btap2 .list_post .post_item{
+    padding: 12px 0;
+    border-bottom: 1px dotted #999;
+}
+.btap2 .list_post .post_item_content{
+    display: flex;
+}
+.btap2 .list_post .post_item_content .post_item_image img{
+    display: block;
+
+}
+.btap2 .list_post .post_item_content .post_item_context{
+    padding-left: 12px;
+}
+.btap2 .list_post .post_item_content .post_item_context a{
+    color: #0055a1;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.btap2 .list_post .post_item_content .post_item_context a .icon-photograph{
+    background-image: url("../images/btap2/h4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: unset;
+}
+.btap2 .list_post .post_item_content .post_item_context .post_item_datetime{
+    color: #0055a1;
+}
+.post_item_context .post_item_datetime .post_item_day{
+    color: #1c874a;
+    font-weight: 600;
+}
+.btap2 .list_post .post_item_content .post_item_context .post_item_detail{
+    color: #5666f9;
+}
+
+.btap2 .list_post .post_item_content .post_item_title{
+    margin: 0;
+}
